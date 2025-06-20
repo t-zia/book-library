@@ -14,7 +14,7 @@ A Spring Boot application for managing books. This application supports CRUD ope
 ### Running Locally
 1. Build the project:
 ```
-mvn clean package
+mvn clean package -DskipTests
 ```
 
 2. Run the application:
@@ -55,7 +55,7 @@ docker-compose up --build
 - `GET /books` — List books with pagination (page and size query params)
 - `GET /books/{id}` — Get a single book by ID 
 - `POST /books` — Create a new book
-- `PUT /books/{id}` — Update an existing book 
+- `POST /books/{id}` — Update an existing book 
 - `DELETE /books/{id}` — Delete a book by ID
 
 ## Assumptions & Design Considerations
