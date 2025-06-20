@@ -33,6 +33,8 @@ docker-compose up --build
 
 2. Access the Swagger API: http://localhost:8080/swagger-ui/index.html
 
+#### Note: Once started, the application adds seed data from the `BookDataSeeder` class.
+
 ### Technologies Used
 
 - **Java 21**

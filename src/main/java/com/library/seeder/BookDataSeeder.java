@@ -38,7 +38,7 @@ public class BookDataSeeder implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        // Uncomment the following line to clear old data and add seed data.
+        // Uncomment the following line to clear old data before adding seed data.
         // bookRepository.deleteAll();
         final long booksCount = bookRepository.count();
         if (booksCount != 0) {
